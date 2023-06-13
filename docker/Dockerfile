@@ -1,6 +1,6 @@
 FROM blakeblackshear/frigate-nginx:1.0.2 as nginx
 
-FROM debian:11 as wheels
+FROM debian:12 as wheels
 ARG TARGETARCH
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -43,7 +43,7 @@ COPY requirements-wheels.txt /requirements-wheels.txt
 RUN pip3 wheel --wheel-dir=/wheels -r requirements-wheels.txt
 
 # Frigate Container
-FROM debian:11-slim
+FROM debian:12-slim
 ARG TARGETARCH
 
 # https://askubuntu.com/questions/972516/debian-frontend-environment-variable
