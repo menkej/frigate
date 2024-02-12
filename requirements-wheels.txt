@@ -5,7 +5,7 @@ matplotlib == 3.5.*
 mypy == 0.942
 numpy == 1.22.*
 opencv-python-headless == 4.5.5.*
-paho-mqtt == 1.6.*
+paho-mqtt == 2.0.*
 peewee == 3.14.*
 peewee_migrate == 1.4.*
 psutil == 5.9.*
