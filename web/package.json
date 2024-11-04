@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@cycjimmy/jsmpeg-player": "^5.0.1",
+    "@cycjimmy/jsmpeg-player": "^6.1.2",
     "axios": "^0.26.0",
     "date-fns": "^2.28.0",
     "idb-keyval": "^6.1.0",
