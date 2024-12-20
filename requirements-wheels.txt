@@ -16,5 +16,5 @@ requests == 2.27.*
 types-requests == 2.27.*
 scipy == 1.8.*
 setproctitle == 1.2.*
-ws4py == 0.5.*
+ws4py == 0.6.*
 zeroconf == 0.38.4
